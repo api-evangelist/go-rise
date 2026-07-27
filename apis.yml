@@ -1,8 +1,29 @@
 aid: go-rise
 name: Go Rise
-description: Go Rise is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rise (gorise.co) is a Dubai-based fintech platform that gives migrant workers
+  control over their finances across both their home and host countries. Through
+  a mobile app for iOS and Android, Rise offers bank accounts, insurance, savings
+  and investment options, "Pay Later" installment services, and remittance and
+  money-transfer capabilities. The company partners with regulated financial
+  institutions including United Arab Bank and insurance providers such as AXA
+  Gulf, and is headquartered in DMCC, Jumeirah Lakes Towers, Dubai, UAE. Rise is
+  a portfolio company of 500 Global and has raised funding led by MEVP. This is a
+  consumer financial-services product with no public developer/API surface at the
+  time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/go-rise/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.gorise.co/images/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Banking
+- Financial Services
+- Remittances
+- Migrant
+- Insurance
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/go-rise-domain-security.yml
 - type: Website
   url: https://gorise.co
+- type: Blog
+  url: https://www.gorise.co/our-story/blog/
+- type: Support
+  url: https://www.gorise.co/rise_contact.php
+- type: TermsOfService
+  url: https://www.gorise.co/rise_terms_condition.php
+- type: PrivacyPolicy
+  url: https://www.gorise.co/rise_privacy_policy.php
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
