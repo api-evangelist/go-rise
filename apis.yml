@@ -12,6 +12,17 @@ description: >-
   consumer financial-services product with no public developer/API surface at the
   time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/go-rise/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
