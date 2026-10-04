@@ -48,7 +48,7 @@ tags:
 - Company
 - Fintech
 - Banking
-- Financial-Services
+- Financial Services
 - Remittances
 - Migrant
 - Insurance
@@ -62,6 +62,7 @@ tags_raw:
 - Migrant
 - Insurance
 - Mobile
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
